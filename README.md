@@ -56,11 +56,10 @@ Step 5: Once your done, you have an export option to export it to Vector drawabl
 Remaining part of how to use exported Animated Vector drawable file in your app can be learn using this sample app uploaded here.
 
 
-<br><img align="left" width="200" height="400" src="https://github.com/chethu/Animated-Vector-drawable-Path-Morphing-/blob/master/app/src/main/res/drawable/original_demo.gif"></br>
+<img align="left" width="200" height="400" src="https://github.com/chethu/Animated-Vector-drawable-Path-Morphing-/blob/master/app/src/main/res/drawable/original_demo.gif">
 
 
-
-<br><img align="left" width="200" height="400" src="https://github.com/chethu/Animated-Vector-drawable-Path-Morphing-/blob/master/app/src/main/res/drawable/demo_vedio.gif"></br>
+<img align="left" width="200" height="400" src="https://github.com/chethu/Animated-Vector-drawable-Path-Morphing-/blob/master/app/src/main/res/drawable/demo_vedio.gif">
 
 
 
