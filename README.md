@@ -53,19 +53,20 @@ Step 3 : Now you decide from what shape to what shape the animation should be pl
 Step 4: As soon as you mention From Path and End Path, you would see the message in the tool saying that "Path are incompatible to process". Basically this message means that two paths are having different number of geometrical points. In order to morph one shape to another, you need paths of same number of points. Shape shifter offer us ability to fix this issue instead of adding those points from ourselves. Hit the auto fix button to correct missing points. then animation is ready to play.
 Step 5: Once your done, you have an export option to export it to Vector drawable, spreesheet, Animated Vector drawable. 
 
-Remaining part of how to use exported Animated Vector drawable file in your app can be learn using this sample app 
+Remaining part of how to use exported Animated Vector drawable file in your app can be learn using this sample app uploaded here.
 
 
-<img align="left" width="200" height="400" src="https://github.com/chethu/Animated-Vector-drawable-Path-Morphing-/blob/master/app/src/main/res/drawable/original_demo.gif">
+<br><img align="left" width="200" height="400" src="https://github.com/chethu/Animated-Vector-drawable-Path-Morphing-/blob/master/app/src/main/res/drawable/original_demo.gif"></br>
 
 
 
+<br><img align="left" width="200" height="400" src="https://github.com/chethu/Animated-Vector-drawable-Path-Morphing-/blob/master/app/src/main/res/drawable/demo_vedio.gif"></br>
 
-<img align="left" width="200" height="400" src="https://github.com/chethu/Animated-Vector-drawable-Path-Morphing-/blob/master/app/src/main/res/drawable/demo_vedio.gif">
 
 
 In upcoming part, I would like to show how to add controller over animated vector drawable, That's most challenging and interesting thing to learn.  
 
-Youtube tutorial - https://www.youtube.com/watch?v=2aq3ljlnQdI&feature=youtu.be
+Youtube tutorial - 
+https://www.youtube.com/watch?v=2aq3ljlnQdI&feature=youtu.be
 https://youtu.be/P35hQOsW0xU
 
