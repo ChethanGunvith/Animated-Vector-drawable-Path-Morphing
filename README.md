@@ -51,4 +51,4 @@ Youtube tutorial - https://www.youtube.com/watch?v=2aq3ljlnQdI&feature=youtu.be
 <img align="left" width="200" height="400" src="https://github.com/chethu/Animated-Vector-drawable-Path-Morphing-/blob/master/app/src/main/res/drawable/demo_vedio.gif">
 
 
-In upcoming part, I would like to show how to add controller over animated vector drawable, That's most chaleging and interesting thing to learn.  
+In upcoming part, I would like to show how to add controller over animated vector drawable, That's most challenging and interesting thing to learn.  
