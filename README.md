@@ -10,7 +10,7 @@ VectorDrawable defines a static drawable object. Similar to the SVG format, inte
   
 The AnimatedVectorDrawable class (and AnimatedVectorDrawableCompat for backward-compatibility) lets you animate the properties of a vector drawable, such as rotating it or changing the path data to morph it into a different image.
 
-You should know what is Path Morphing : 
+ What is Path Morphing : 
 Path morphing animation technique that allows us to seamlessly transform the shapes of two paths(contains the geometrical points) by animating the differences in their drawing commands, The most important thing to consider when implementing a path morphing animation is whether or not the paths you want to morph are compatible.
 
 In order to morph path A into path B the following conditions must be met:
