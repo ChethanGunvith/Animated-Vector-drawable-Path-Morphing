@@ -1,24 +1,23 @@
 # Animated-Vector-Drawable-Path-Morphing
 
-Here’s my attempt at gathering all the required information and compressing it to something you can easily understand what is all about Animated vector drawable and how this is helping to animate some of complex animation. The reason I selected this topic is that, Google has not provided stright forward examples to build animation, You may find bits of information here and there, but nothing solid. I dont want to be too descriptive and I will keep it short for you to understand implementation part.
-
+Here’s my attempt at gathering all the required information and compressing it to something you can easily understand what is all about Animated vector drawable and how this is helping to animate some of complex animation. The reason I selected this topic is that, Google has not provided stright forward examples to build animation, You may find bits of information here and there, but nothing solid. 
 
 Let me give some insights on Vector drawable : 
 
-A normal Image bitmap represent as a set of pixels in a grid. with vector graphics you can represent an image by describing the object of geometrically, this mean you can describe an image as a set of points, lines and curves with associated color information.
+A normal Image bitmap represent as a set of pixels in a grid. with vector graphics you represent an image by describing the object of geometrically, this mean you can describe an image as a set of points, lines and curves with associated color information.
 
 Using vector graphics you will bring down your app foot print drastically to smaller size, Before 5.0, what we developer end up doing was creating multiple versions of each image for different display resolutions. this was taking more spance in APK and device space while running. 
 
-With help of vector images, you only need to create an image once, as an XML file, and it can scale beauitifully for all different DPI's for different devices. The same vector image can be use for animation. 
+With help of vector images, you only need to create an image once, as an XML file, and it can scale beauitifully for all different DPI's for different devices. you can also use same vector image for animation. 
 
-What is the difference between vector drawable and animated vector drawable? 
+What makes vector drawable and animated vector drawable? 
 Vector drawable defines a static drawable object, while animated vector drawable can add amimations to the properties of vector drawable. They both are subclasses of drawable and both are represented by XML files. 
 
-You have to be aware of performance implication and its trade off, vector drawable image size should be limited to with reasonable sizes because these drawables are first drawn into bitmap then uploaded to the texture on the GPU, larger bitmaps means more memory and more time to upload. 
+Vector drawable has few implication and trade off, vector drawable image size should be limited to with reasonable sizes because these drawables are first drawn into bitmap then uploaded to the texture on the GPU, larger bitmaps means more memory and more time to upload. 
 
 Practically, vector drawable is recommeded for icons and buttons with reasonable sizes. 
 
-When it comes to animations, it is recommended to keep you animation short and sweet, animating path data attributes is heavy operations. 
+When it comes to animating vector drawable, it is recommended to keep you animation short and sweet, animating path data attributes is heavy operations. 
 
 One additional information, Starting from API 25, AnimatedVectorDrawable runs on RenderThread, (as opposed to on UI thread for earlier APIs). This means animations in AnimatedVectorDrawable can remain smooth even when there is heavy workload on the UI thread.
 
@@ -56,10 +55,8 @@ Step 5: Once your done, you have an export option to export it to Vector drawabl
 
 Remaining part of how to use exported Animated Vector drawable file in your app can be learn using this sample app 
 
-Youtube tutorial - https://www.youtube.com/watch?v=2aq3ljlnQdI&feature=youtu.be
 
 <img align="left" width="200" height="400" src="https://github.com/chethu/Animated-Vector-drawable-Path-Morphing-/blob/master/app/src/main/res/drawable/original_demo.gif">
-
 
 
 
@@ -68,3 +65,7 @@ Youtube tutorial - https://www.youtube.com/watch?v=2aq3ljlnQdI&feature=youtu.be
 
 
 In upcoming part, I would like to show how to add controller over animated vector drawable, That's most challenging and interesting thing to learn.  
+
+Youtube tutorial - https://www.youtube.com/watch?v=2aq3ljlnQdI&feature=youtu.be
+https://youtu.be/P35hQOsW0xU
+
