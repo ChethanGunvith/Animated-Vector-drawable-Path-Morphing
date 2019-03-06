@@ -2,12 +2,13 @@
 
 Here’s my attempt at gathering all the required information and compressing it to something you can easily understand what is all about Animated vector drawable and how this is helping to animate some of complex animation. The reason I selected this topic is that, Google has not provided stright forward examples to build animation, You may find bits of information here and there, but nothing solid. I dont want to be too descriptive and I will keep it short for you to understand implementation part.
 
-I believe you already have basic understanding of SVG, Vector drawable. In simple, a vector drawable is a type of drawable that is scalable without getting pixelated or blurry. Vector drawable is an XML file with set of points, lines, and curves along with its associated color information. 
+I believe you already have some experience in android development and you already have basic understanding of SVG, Vector Drawable. In simple, a vector drawable is a type of drawable that is scalable without getting pixelated or blurry. Vector drawable is an XML file with set of points, lines, and curves along with its associated color information. 
 
 The major advantage of using a vector drawable is image scalability. It can be scaled without loss of display quality, which means the same file is resized for different screen densities without loss of image quality. This results in smaller APK files and less developer maintenance.
 
 VectorDrawable defines a static drawable object. Similar to the SVG format, each vector graphic is made up of path and group objects. Each path contains the geometry of the object's outline and group contains details for transformation. 
-  
+ 
+
 The AnimatedVectorDrawable class (and AnimatedVectorDrawableCompat for backward-compatibility) lets you animate the properties of a vector drawable, such as rotating it or changing the path data to morph it into a different image.
 
 What is Path Morphing ? 
@@ -48,3 +49,6 @@ Youtube tutorial - https://www.youtube.com/watch?v=2aq3ljlnQdI&feature=youtu.be
 
 
 <img align="left" width="200" height="400" src="https://github.com/chethu/Animated-Vector-drawable-Path-Morphing-/blob/master/app/src/main/res/drawable/demo_vedio.gif">
+
+
+In upcoming part, I would like to show how to add controller over animated vector drawable, That's most chaleging and interesting thing to learn.  
