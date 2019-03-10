@@ -49,9 +49,9 @@ There are very few simple steps to follow in shape shifter to produce your anima
 
 Step 1 : Get all the shapes from your designer that you wanted animated, drawable should be either in SVG/Vector drawable.
 
-Step 2 : Import shape1 drawable and shape 2 drawable into shapes shifter tool, each of one of those svg/vector drawable has path in it. Copy those paths.
+Step 2 : Import shape1 drawable and shape 2 drawable into shapes shifter tool, each of one of these svg/vector drawable has path in it. Copy those paths separtly.
 
-Step 3 : Now you decide from what shape to what shape the animation should be play, based on that you keep copied path as path  from value and end value in Path Data option in tool.
+Step 3 : Now you decide from what shape to what shape the animation should play, based on that you keep copied path as path-1 as from value and path-2 as end value in Path Data option in shape shifter tool.
 
 Step 4: As soon as you mention From Path and End Path, you would see the message in the tool saying that "Path are incompatible to process". Basically this message means that two paths are having different number of geometrical points. In order to morph one shape to another, you need paths of same number of points. Shape shifter offer us ability to fix this issue instead of adding those points from ourselves. Hit the auto fix button to correct missing points. then animation is ready to play.
 
@@ -67,9 +67,9 @@ Remaining part of how to use exported Animated Vector drawable file in your app 
 
 
 
-I will continue to write more on this, and would like to show how to add controller over animated vector drawable, That's most challenging and interesting thing to that you ever wanted.  
+I would like to add bit more information in coming days on how to give controller over animated vector drawable, That's one most challenging and interesting thing to do.  
 
-Youtube tutorial - 
+ Youtube tutorial - 
 https://www.youtube.com/watch?v=2aq3ljlnQdI&feature=youtu.be
 https://youtu.be/P35hQOsW0xU
 
